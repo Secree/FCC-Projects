@@ -1,0 +1,107 @@
+<html>
+   <head>
+        <title>Secree Portfolio</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <style>
+
+body {
+    background-color:  #0a2b3a;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#navbar {
+    width: 100vw;
+    height: 8vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+#navbar a:hover {
+    color: aqua;
+}
+
+#welcome-section {
+    width: 100vw;
+    height: 100vh;
+    margin-top: 10vh;
+}
+
+h1 {
+    width: 100%;
+    height: 100%;
+    color: #5aaada;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+}
+
+#projects, #profile {
+    display: block;
+    text-align: center;
+    font-size: 3rem;
+    color: #3abafc;
+}
+
+#projects a, #profile a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+#projects a:hover, #profile a:hover {
+    color: aqua;
+}
+
+@media (max-width: 1000px) {
+
+}
+
+      </style>
+   </head>
+   <body>
+      
+            <nav id="navbar">
+                <a class="nav-link" href="#welcome-section">About</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#profile">Profile</a>
+            </nav>
+
+        <header id="welcome-section">
+            <h1>I am Secree<br>Developer<br>Welcome to my portfolio</h1>
+        </header>
+
+        <hr>
+         
+        <section id="projects">
+            <h2>My Projects</h2>
+            <a class="project-tile" href="https://github.com/Secree/-Private-FreeCodeCamp-Tribute/blob/main/The-Tales-of-Secree.html" target="_blank">The Tales of Secree</a>
+            <a class="project-tile" href="https://github.com/Secree/-Private-FreeCodeCamp-Tribute/blob/main/Survey-of-Secree.html" target="_blank">Survey of Secree</a>
+            <a class="project-tile" href="https://github.com/Secree/-Private-FreeCodeCamp-Tribute/blob/main/Secree-The-World-Hopper.html" target="_blank">Secree The World Hopper</a>
+            <a class="project-tile" href="https://github.com/Secree/-Private-FreeCodeCamp-Tribute/tree/main/Merchandise-of-Secree" target="_blank">Merchandise-of-Secree</a>
+        </section>
+         
+        <hr>
+        
+        <footer id="profile">
+            <div>
+            <h2>My Platforms</h2>
+            <a id="profile-link" href="https://github.com/Secree" target="_blank">Github</a>
+            <a id="profile-link" href="https://www.freecodecamp.org/Secree" target="_blank">freeCodeCamp</a>
+            </div>
+        </footer>
+    </body>
+</html>

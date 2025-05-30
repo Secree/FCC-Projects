@@ -1,0 +1,145 @@
+* {
+   box-sizing: border-box;
+}
+
+html {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 10px;
+}
+
+body {
+   background-color: black;
+   color: white;
+}
+
+h2 {
+   color: #4a9ccb;
+}
+
+#header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 70px;
+   background-color: black;
+   padding: 0 0 0 1.3rem;
+   margin: 0;
+}
+
+#header-img {
+   width: 15%;
+   height: 100%;
+   display: flex;
+   justify-content: space-around;
+}
+
+#nav-bar {
+   width: 55vw;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   padding: 0 10px;
+}
+
+.nav-link {
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 2.5rem;
+   color: white;
+}
+
+hr {
+   width: 90%;
+   margin: 80px auto;
+   border: 1px dashed #2b6a9c;
+}
+
+#hero {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   margin-top: 110px;
+   text-align: center;
+   font-size: 1.6rem;
+}
+
+#hero input[type="email"] {
+   max-width: 250px;
+   width: 100%;
+   padding: 0.5rem;
+   margin: 20px 0;
+   color: white;
+}
+
+#hero input[type="submit"] {
+   max-width: 180px;
+   width: 100%;
+   padding: 0.8rem;
+   background-color: #0a3a5c;
+   color: #eeeeee;
+   font-size: 1.8rem;
+}
+
+.htb {
+   margin-left: 50px;
+   margin-right: 50px;
+   letter-spacing: 2px;
+}
+
+.htb h2 {
+   font-size: 2rem;
+   text-align: center;
+}
+
+.htb p {
+   font-size: 1.8rem;
+   text-align: justify;
+}
+
+.products {
+   display: flex;
+   justify-content: center;
+}
+
+.products video {
+   width: 100%;
+}
+
+video {
+   width: 50%;
+   height: 20vh;
+}
+
+#price {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
+}
+
+#price article{
+   font-size: 1.6rem;
+   border: 2px solid #0a3a5c;
+   text-align: center;
+   padding: 115px;
+}
+
+.btn {
+   font-size: 1.4rem;
+   padding: 10px 15px;
+   background-color: #0a3a5c;
+   color: #eeeeee;
+}
+
+@media (max-width: 1000px) {
+  .nav-link {
+    font-size: 1.5rem;
+  }
+   #price {
+      flex-direction: column;
+   }
+}

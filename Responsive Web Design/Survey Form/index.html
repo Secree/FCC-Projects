@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Survey-Of-Secree</title>
+        <style>
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(90deg, #1b1b3b, #2a2a3f);
+    color: #f5f6f7;
+    font-family: sans-serif;
+    font-size: 16px;
+}
+
+h1, p {
+    margin: 1em auto;
+    text-align: center;
+}
+
+form {
+    width: 60vw;
+	max-width: 500px;
+	min-width: 300px;
+	margin: 0 auto;
+    padding-bottom: 2em;
+}
+
+#description {
+    color: beige;
+}
+fieldset {
+    border: none;
+    padding: 2rem 0;
+}
+
+fieldset:not(:last-of-type) {
+    border-bottom: 3px solid #3b3b4f;
+}
+
+label {
+    display: block;
+	margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+    margin: 10px 0 0 0;
+	width: 100%;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+}
+
+.inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+div {
+    margin-bottom: 2rem;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+}
+
+input[type="file"] {
+    padding: 1px 2px;
+}
+
+        </style>
+    </head>
+    <body>
+        <h1 id="title">SECREE</h1>
+        <p id="description">Let Secree Know You Better</p>
+        <form id="survey-form">
+            <fieldset>
+                <label id="name-label">What's your name? <input id="name" type="text" name="name" placeholder="John Doe" required /></label>
+                <label id="nickname-label">What do you preffered being called? <input id="nickname" type="text" name="nickname" placeholder="John" required /></label>
+                <label id="email-label">What's your email? <input id="email" type="email" name="email" placeholder="johndoe@email.com" required /></label>
+                <label id="number-label">What's your age? <input id="number" type="number" name="number" min="5" max="120" placeholder="16" required /></label>
+            </fieldset>
+            <fieldset>
+                <div class="favosys">What's The Better OS?</div>
+                <label><input type="radio" name="os" class="inline" value="android" required/> Android</label>
+                <label><input type="radio" name="os" class="inline" value="ios /> IOS</label>
+            </fieldset>
+            <fieldset>
+                <div class="favfruit">What's Your Favorite Fruit?</div>
+                <label><input type="checkbox" name="terms" class="inline" value="banana" required /> Banana</label>
+                <label><input type="checkbox" name="terms" class="inline" value="apple" required /> Apple<label>
+                <label><input type="checkbox" name="terms" class="inline" value="mango" required /> Mango<label>
+            </fieldset>
+            <fieldset>
+                <label>What's your favorite primary color?
+                <select id="dropdown" name="favcolor" required>
+                    <option value="">Pick One</option>
+                    <option value="1">Blue</option>
+                    <option value="2">Green</option>
+                    <option value="3">Red</option>
+                    <option value="4">Yellow</option>
+                </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <label>Decribe Yourself:
+                    <textarea name="bio" rows="3" cols="30" placeholder="I love doing..." required></textarea>
+			    </label>
+            </fieldset>
+            <input id="submit" type="submit" value="Submit" />
+        </form>
+    </body>
+</html>
