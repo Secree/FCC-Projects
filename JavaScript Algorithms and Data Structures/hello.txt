@@ -1,0 +1,10 @@
+Hello, world! 🎉
+
+Why did the JavaScript developer go broke?
+Because he kept using 'var' when he should have used 'let'! 😄
+
+Have a fun day coding!
+
+Here's another one:
+Why do programmers prefer dark mode?
+Because light attracts bugs! 🐛😆
