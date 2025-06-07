@@ -8,3 +8,7 @@ Have a fun day coding!
 Here's another one:
 Why do programmers prefer dark mode?
 Because light attracts bugs! 🐛😆
+
+Here's one more:
+Why do JavaScript developers wear glasses?
+Because they don't C#!
