@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>RPG Creature Search App</h1>
+    </header>
+
+    <main>
+        <div class="form-container">
+            <form id="form">              
+                <label for="textInput">Search for Creature Name or ID:</label>
+                <div class="form-group">
+                    <input type="text" id="search-input" name="textInput" placeholder="Type something here..." required>
+                    <button type="submit" id="search-button" required>Submit</button>
+                </div>                
+            </form>
+        
+            <div class="output">
+                <div id="top">
+                    <p>
+                        <span id="creature-id"></span>
+                        <span id="creature-name"></span>                        
+                    </p>
+                    <p>
+                        <span id="weight"></span>
+                        <span id="height"></span>
+                    </p>
+                    <p id="types"></p>
+                    <div id="special"></div>
+                    
+                </div>
+                <div id="base">
+                    <table>
+                        <tr class="row"><th>BASE</th><th>STATS</th></tr>
+                        <tr class="row"><th>HP:</th><td id="hp"></td></tr>
+                        <tr class="row"><th>Attack:</th><td id="attack"></td></tr>
+                        <tr class="row"><th>Defense:</th><td id="defense"></td></tr>
+                        <tr class="row"><th>Sp.Attack:</th><td id="special-attack"></td></tr>
+                        <tr class="row"><th>Sp.Defense:</th><td id="special-defense"></td></tr>
+                        <tr class="row"><th>Speed:</th><td id="speed"></td></tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
