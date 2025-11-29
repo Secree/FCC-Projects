@@ -1,0 +1,26 @@
+body {
+  background-color: #568f7f;
+}
+
+.main {
+  background-color: #129afb;
+  padding: 30px;
+  border: 2px #2581ef solid;
+}
+
+.amount-input {
+  border: 1px blue solid;
+}
+
+.inputs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.final-amount {
+  text-align: center;
+  color: #efe6f3;
+}
