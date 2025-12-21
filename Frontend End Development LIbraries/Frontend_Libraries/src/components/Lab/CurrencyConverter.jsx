@@ -1,5 +1,5 @@
 import { useState, useMemo } from 'react';
-import "../styles/CurrencyConverter.css";
+import "../../styles/CurrencyConverter.css";
 
 export default function CurrencyConverter() {
   const [amount, setAmount] = useState(1);
